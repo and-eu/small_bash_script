@@ -432,6 +432,7 @@ case $option in
 5) file_explorer ;;
 6) cmd_to_window "Insert full path of the file you want to read." "cat" chapter4 "This command prints the content of teh file." ;;
 7) cmd_to_window "Insert full path of the folder." "ls -lah" chapter4  ;;
+
 8|9|10|11|12|13|14|15|16|17|18) zenity --info --text="Due to employee shortage and budget constrains, this feature is postponed for next product increment." 
 chapter4
 ;;
